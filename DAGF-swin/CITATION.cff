@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite our paper."
+title: "DAGF-Swin: Dual-site Attention Fusion with Swin Transformer for Detail-Smearing Image Restoration"
+version: 1.0.0
+date-released: 2026-06-08
+authors:
+  - family-names: "Author"
+    given-names: "First"
+    # TODO: replace with real author list
+repository-code: "https://github.com/YOUR_USERNAME/DAGF-swin"
+url: "https://github.com/YOUR_USERNAME/DAGF-swin"
+doi: 10.5281/zenodo.XXXXXXX  # TODO: fill after Zenodo archive
+license: MIT
+keywords:
+  - image restoration
+  - swin transformer
+  - attention fusion
+  - detail smearing
+preferred-citation:
+  type: article
+  title: "DAGF-Swin: Dual-site Attention Fusion with Swin Transformer for Detail-Smearing Image Restoration"
+  authors:
+    - family-names: "Author"
+      given-names: "First"
+  journal: "The Visual Computer"
+  publisher: "Springer"
+  note: "Submitted / under review. Code release v1.0.0 accompanies this submission."
+  year: 2026
+  doi: 10.5281/zenodo.XXXXXXX  # software DOI; paper DOI when available
