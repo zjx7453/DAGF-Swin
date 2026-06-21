@@ -21,6 +21,19 @@ See **[docs/RELEASE.md](docs/RELEASE.md)** for DOI registration steps.
 
 ---
 
+## Downloads（百度网盘）
+
+| Resource | Baidu Netdisk | Code |
+|----------|---------------|------|
+| **Dataset** (`Data.zip`) | [Download](https://pan.baidu.com/s/1W_UJRRs2z0CFrzXwBqqwKQ?pwd=bsmr) | `bsmr` |
+| **Checkpoints** (`best_*.pth`) | [Download](https://pan.baidu.com/s/1AOiekmrW7FrBnfMEdW-9qw?pwd=ah3p) | `ah3p` |
+
+- Dataset → extract to [`data/`](data/README.md)  
+- Checkpoints → extract to [`weights/`](weights/README.md)（默认推理用 `best_score.pth`）  
+- Details: [weights/CHECKPOINTS.md](weights/CHECKPOINTS.md)
+
+---
+
 ## Highlights
 
 - YCbCr luminance restoration with **dual-site shallow–deep fusion (SDAF / DMSA-Fusion)**
@@ -85,9 +98,17 @@ python -c "import torch; print(torch.__version__, torch.cuda.is_available())"
 
 ## Pretrained weights
 
+Download from **[Baidu Netdisk](https://pan.baidu.com/s/1AOiekmrW7FrBnfMEdW-9qw?pwd=ah3p)** (extract code: `ah3p`), extract to `weights/`, then:
+
+```bash
+python inference.py --checkpoint weights/best_score.pth ...
+```
+
+Or:
+
 ```bash
 python scripts/download_pretrained.py
-# or manually place checkpoint at weights/dagf_swin_best.pth
+# manual: see weights/README.md
 ```
 
 Details: **[weights/README.md](weights/README.md)**
@@ -131,7 +152,8 @@ python scripts/prepare_dataset.py \
   --seed 42
 ```
 
-Full guide: **[docs/DATA.md](docs/DATA.md)**
+Full guide: **[docs/DATA.md](docs/DATA.md)**  
+Pre-built dataset: **[data/README.md](../data/README.md)** (Baidu Netdisk `Data.zip`, code `bsmr`)
 
 ---
 
@@ -184,7 +206,9 @@ Also cite the paper when published. Machine-readable metadata: **[CITATION.cff](
 
 ## Code availability (for the paper)
 
-> The source code, pretrained weights, data preparation scripts, and benchmark protocol are available at [https://github.com/zjx7453/DAGF-Swin](https://github.com/zjx7453/DAGF-Swin) (release `v1.0.0`, subdirectory `DAGF-swin/`) and permanently archived on Zenodo (`https://doi.org/10.5281/zenodo.XXXXXXX`). This release accompanies our submission to *Scientific Reports*.
+> The source code, pretrained weights, data preparation scripts, and benchmark protocol are available at [https://github.com/zjx7453/DAGF-Swin](https://github.com/zjx7453/DAGF-Swin) (release `v1.0.0`, subdirectory `DAGF-swin/`) and permanently archived on Zenodo (`https://doi.org/10.5281/zenodo.XXXXXXX
+        
+        `). This release accompanies our submission to *Scientific Reports*.
 
 ---
 
