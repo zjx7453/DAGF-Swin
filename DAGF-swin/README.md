@@ -184,9 +184,7 @@ Also cite the paper when published. Machine-readable metadata: **[CITATION.cff](
 
 ## Code availability (for the paper)
 
-> The source code, pretrained weights, data preparation scripts, and benchmark protocol are available at `<GitHub URL>` (release `v1.0.0`) and permanently archived on Zenodo (`https://doi.org/10.5281/zenodo.XXXXXXX
-        
-        `). This release accompanies our submission to *Scientific Reports*.
+> The source code, pretrained weights, data preparation scripts, and benchmark protocol are available at `<GitHub URL>` (release `v1.0.0`) and permanently archived on Zenodo (`https://doi.org/10.5281/zenodo.XXXXXXX`). This release accompanies our submission to *Scientific Reports*.
 
 ---
 
