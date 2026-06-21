@@ -1,11 +1,11 @@
 # DAGF-Swin
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![The Visual Computer](https://img.shields.io/badge/Journal-The%20Visual%20Computer-blue)](https://link.springer.com/journal/371)
+[![Scientific Reports](https://img.shields.io/badge/Journal-Scientific%20Reports-blue)](https://www.nature.com/srep/)
 
 **Dual-site Attention Fusion with Swin Transformer for detail-smearing image restoration.**
 
-Official PyTorch implementation released in connection with our submission to *[The Visual Computer](https://link.springer.com/journal/371)* (Springer).
+Official PyTorch implementation released in connection with our submission to *[Scientific Reports](https://www.nature.com/srep/)* (Nature Portfolio).
 
 ---
 
@@ -48,7 +48,7 @@ DAGF-swin/
 ├── docs/
 │   ├── BENCHMARK.md         # Formal benchmark protocol
 │   ├── DATA.md              # Data preparation guide
-│   └── RELEASE.md           # DOI & TVC code-availability text
+│   └── RELEASE.md           # DOI & Scientific Reports code-availability text
 ├── environment.yml
 ├── requirements.txt
 ├── CITATION.cff
@@ -172,8 +172,8 @@ If you use this code, please cite:
   title   = {DAGF-Swin: Dual-site Attention Fusion with Swin Transformer for Detail-Smearing Image Restoration},
   author  = {Author, First and Others},
   year    = {2026},
-  journal = {The Visual Computer},
-  note    = {Software release v1.0.0 accompanying submission to The Visual Computer. Code: \url{https://github.com/YOUR_USERNAME/DAGF-swin}. DOI: 10.5281/zenodo.XXXXXXX},
+  journal = {Scientific Reports},
+  note    = {Software release v1.0.0 accompanying submission to Scientific Reports. Code: \url{https://github.com/YOUR_USERNAME/DAGF-swin}. DOI: 10.5281/zenodo.XXXXXXX},
   doi     = {10.5281/zenodo.XXXXXXX}
 }
 ```
@@ -184,7 +184,9 @@ Also cite the paper when published. Machine-readable metadata: **[CITATION.cff](
 
 ## Code availability (for the paper)
 
-> The source code, pretrained weights, data preparation scripts, and benchmark protocol are available at `<GitHub URL>` (release `v1.0.0`) and permanently archived on Zenodo (`https://doi.org/10.5281/zenodo.XXXXXXX`). This release accompanies our submission to *The Visual Computer*.
+> The source code, pretrained weights, data preparation scripts, and benchmark protocol are available at `<GitHub URL>` (release `v1.0.0`) and permanently archived on Zenodo (`https://doi.org/10.5281/zenodo.XXXXXXX
+        
+        `). This release accompanies our submission to *Scientific Reports*.
 
 ---
 
