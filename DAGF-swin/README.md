@@ -13,8 +13,8 @@ Official PyTorch implementation released in connection with our submission to *[
 
 | Item | Link |
 |------|------|
-| Source code | `https://github.com/YOUR_USERNAME/DAGF-swin` ← **replace after creating repo** |
-| Release tag | `https://github.com/YOUR_USERNAME/DAGF-swin/releases/tag/v1.0.0` |
+| Source code | [https://github.com/zjx7453/DAGF-Swin](https://github.com/zjx7453/DAGF-Swin) (code in [`DAGF-swin/`](https://github.com/zjx7453/DAGF-Swin/tree/main/DAGF-swin)) |
+| Release tag | [v1.0.0](https://github.com/zjx7453/DAGF-Swin/releases/tag/v1.0.0) *(create when publishing weights)* |
 | Zenodo (DOI) | `https://doi.org/10.5281/zenodo.XXXXXXX` ← **fill after Zenodo archive** |
 
 See **[docs/RELEASE.md](docs/RELEASE.md)** for DOI registration steps.
@@ -170,10 +170,10 @@ If you use this code, please cite:
 ```bibtex
 @software{dagf_swin2026,
   title   = {DAGF-Swin: Dual-site Attention Fusion with Swin Transformer for Detail-Smearing Image Restoration},
-  author  = {Author, First and Others},
+  author  = {Zhao, Jenshin},
   year    = {2026},
   journal = {Scientific Reports},
-  note    = {Software release v1.0.0 accompanying submission to Scientific Reports. Code: \url{https://github.com/YOUR_USERNAME/DAGF-swin}. DOI: 10.5281/zenodo.XXXXXXX},
+  note    = {Software release v1.0.0 accompanying submission to Scientific Reports. Code: \url{https://github.com/zjx7453/DAGF-Swin}. DOI: 10.5281/zenodo.XXXXXXX},
   doi     = {10.5281/zenodo.XXXXXXX}
 }
 ```
@@ -184,7 +184,7 @@ Also cite the paper when published. Machine-readable metadata: **[CITATION.cff](
 
 ## Code availability (for the paper)
 
-> The source code, pretrained weights, data preparation scripts, and benchmark protocol are available at `<GitHub URL>` (release `v1.0.0`) and permanently archived on Zenodo (`https://doi.org/10.5281/zenodo.XXXXXXX`). This release accompanies our submission to *Scientific Reports*.
+> The source code, pretrained weights, data preparation scripts, and benchmark protocol are available at [https://github.com/zjx7453/DAGF-Swin](https://github.com/zjx7453/DAGF-Swin) (release `v1.0.0`, subdirectory `DAGF-swin/`) and permanently archived on Zenodo (`https://doi.org/10.5281/zenodo.XXXXXXX`). This release accompanies our submission to *Scientific Reports*.
 
 ---
 
@@ -196,4 +196,4 @@ Also cite the paper when published. Machine-readable metadata: **[CITATION.cff](
 
 ## Contact
 
-For questions about this code release, open a GitHub issue or contact the corresponding author listed in the paper.
+For questions about this code release, open a GitHub issue or contact **Jenshin Zhao** (corresponding author).
