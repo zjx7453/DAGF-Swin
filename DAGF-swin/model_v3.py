@@ -6,7 +6,7 @@
 2. 浅层：双卷积 + GELU，加强边缘与细纹理表征
 3. conv_after_body：全卷积 3x3（替代深度可分离），增强通道混合
 4. tail：双层全卷积 + GELU（use_dwconv=True 时），提升残差高频重建能力
-其余（Swin/RSTB/窗口注意力等）与 V2 一致。
+其余与 V2 一致。
 """
 
 import torch
