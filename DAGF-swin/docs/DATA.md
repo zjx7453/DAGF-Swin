@@ -1,5 +1,13 @@
 # Data preparation
 
+## 0. Download pre-built dataset (optional)
+
+| Item | Baidu Netdisk | Extract code |
+|------|---------------|--------------|
+| **Data.zip** | [https://pan.baidu.com/s/1W_UJRRs2z0CFrzXwBqqwKQ](https://pan.baidu.com/s/1W_UJRRs2z0CFrzXwBqqwKQ?pwd=bsmr) | `bsmr` |
+
+Extract under `DAGF-swin/data/`. See also [data/README.md](../data/README.md).
+
 ## 1. Directory layout
 
 ### Training (synthetic degradation from GT)
