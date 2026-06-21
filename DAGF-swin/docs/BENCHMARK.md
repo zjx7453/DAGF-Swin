@@ -97,12 +97,4 @@ python inference.py \
 - Use **the same checkpoint and model config** as in the paper.  
 - For images larger than GPU memory, add `--tile_size 512 --overlap 32` and report tiling settings.
 
-## 8. Paper checklist
 
-- [ ] GitHub release tag (e.g. `v1.0.0`)  
-- [ ] Zenodo DOI (see `docs/RELEASE.md`)  
-- [ ] GPU / PyTorch versions  
-- [ ] Nominal input size + padded size if H or W ≢ 0 (mod 8)  
-- [ ] Warmup & repeat counts  
-- [ ] FP32 or FP16 autocast  
-- [ ] Checkpoint filename & SHA256 (see `weights/README.md`)
